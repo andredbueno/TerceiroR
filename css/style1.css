@@ -1,0 +1,86 @@
+body {
+    background: #222;
+    font-family: Arial, "helvetica Neue", Helvetica, sans-serif;
+}
+
+#efeito {
+    width: 100%;
+    background: #fff;
+    margin: 5px;
+    border-radius: 14px;
+    float: left;
+}
+#efeito ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+#efeito ul li {
+    float: left;
+    font-size: 1em;
+}
+
+#efeito ul li a {
+    color: #888;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+#efeito ul li:hover {
+    background: #000;
+    border-radius: 0px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 15px;
+}
+
+#efeito ul li .home {
+    background: rgb(255, 187, 0) url(../img2/home.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-top-left-radius: 15px;
+}
+#efeito ul li .serviço {
+    background: rgb(0, 174, 255) url(../img2/servico.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-top-left-radius: 0px;
+}
+#efeito ul li .portifolio {
+    background: rgb(163, 163, 163) url(../img2/portifolio.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-top-left-radius: 0px;
+}
+#efeito ul li .evento {
+    background: rgb(255, 149, 237) url(../img2/evento.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-top-left-radius: 0px;
+}
+#efeito ul li .sobre {
+    background: rgb(0, 255, 64) url(../img2/sobre.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-top-left-radius: 0px;
+}
+#efeito ul li .contato {
+    background: rgb(192, 114, 255) url(../img2/contato.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-top-left-radius: 0px;
+}
